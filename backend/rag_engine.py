@@ -3,7 +3,7 @@ from typing import List, Dict, Tuple
 import re
 
 from langchain_chroma import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_cohere import CohereEmbeddings
 from langchain_groq import ChatGroq
 from langchain_core.documents import Document
 
@@ -25,11 +25,14 @@ class RAGEngine:
             raise RuntimeError(
                 "GROQ_API_KEY is not set. Add it to your .env file or environment."
             )
+        if not settings.COHERE_API_KEY:
+            raise RuntimeError(
+                "COHERE_API_KEY is not set. Add it to your .env file or environment."
+            )
 
-        self.embeddings = HuggingFaceEmbeddings(
-            model_name=settings.EMBED_MODEL,
-            model_kwargs={"device": "cpu"},
-            encode_kwargs={"normalize_embeddings": False},
+        self.embeddings = CohereEmbeddings(
+            cohere_api_key=settings.COHERE_API_KEY,
+            model=settings.EMBED_MODEL,
         )
         self.vectorstore = Chroma(
             collection_name="support_docs",
