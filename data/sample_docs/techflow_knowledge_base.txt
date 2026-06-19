@@ -1,0 +1,117 @@
+TechFlow Solutions — Customer Support Knowledge Base
+=====================================================
+
+1. ABOUT TECHFLOW SOLUTIONS
+---------------------------
+TechFlow Solutions is a SaaS company founded in 2018, headquartered in Austin, Texas.
+We provide workflow automation software for small and medium businesses. Our flagship
+product is TechFlow Hub, an all-in-one platform for task management, team collaboration,
+and process automation. We serve over 12,000 businesses across 40 countries.
+
+
+2. PRICING PLANS
+----------------
+We offer three subscription plans:
+
+Starter Plan: $19 per user per month (billed annually) or $24 per user per month (billed monthly)
+  - Up to 10 users
+  - 5 GB storage per user
+  - Email support
+  - Basic integrations (Google Workspace, Slack)
+
+Professional Plan: $49 per user per month (billed annually) or $59 per user per month (billed monthly)
+  - Up to 100 users
+  - 50 GB storage per user
+  - Priority email and chat support
+  - Advanced integrations (Salesforce, HubSpot, Jira)
+  - Custom workflows
+  - API access
+
+Enterprise Plan: Custom pricing (contact sales)
+  - Unlimited users
+  - Unlimited storage
+  - Dedicated account manager
+  - 24/7 phone support
+  - SSO/SAML authentication
+  - SOC 2 Type II compliance
+  - 99.99% uptime SLA
+
+All plans include a 14-day free trial with no credit card required.
+
+
+3. REFUND POLICY
+----------------
+We offer a 30-day money-back guarantee for all annual subscriptions. If you are not
+satisfied with TechFlow Hub within the first 30 days of your annual subscription,
+contact billing@techflow.example and we will issue a full refund within 5-7 business days.
+
+Monthly subscriptions are non-refundable but can be canceled at any time. Cancellations
+take effect at the end of the current billing cycle.
+
+Enterprise contracts have custom refund terms specified in the master services agreement.
+
+
+4. SUPPORT HOURS AND CONTACT
+----------------------------
+Email support: support@techflow.example
+  - Starter: response within 24 hours
+  - Professional: response within 4 hours
+
+Live chat: Available Monday through Friday, 9 AM to 6 PM Central Time,
+  on Professional and Enterprise plans only.
+
+Phone support: +1 (512) 555-0142, available 24/7 for Enterprise customers only.
+
+Help center: help.techflow.example
+
+For security issues, email security@techflow.example.
+For partnership inquiries, contact partners@techflow.example.
+
+
+5. DATA SECURITY AND COMPLIANCE
+-------------------------------
+TechFlow Solutions is SOC 2 Type II certified and GDPR compliant. All customer data is
+encrypted at rest using AES-256 and in transit using TLS 1.3. We perform daily backups
+that are retained for 30 days. Our infrastructure runs on AWS in the US-East and
+EU-West regions, with full data residency options available on the Enterprise plan.
+
+We do NOT sell customer data to third parties. We do NOT train AI models on customer data.
+
+
+6. INTEGRATIONS
+---------------
+TechFlow Hub integrates with: Google Workspace, Slack, Microsoft Teams, Zoom, Salesforce,
+HubSpot, Jira, GitHub, GitLab, Asana, Trello, Notion, Zapier, Make.com, Stripe, QuickBooks,
+and Dropbox.
+
+Salesforce, HubSpot, and Jira integrations require the Professional plan or higher.
+
+
+7. ACCOUNT MANAGEMENT
+---------------------
+To change your plan: Log in, go to Settings > Billing > Change Plan. Upgrades take effect
+immediately. Downgrades take effect at the end of the current billing cycle.
+
+To add users: Settings > Team > Invite Members. You will be billed pro-rated for new users
+added mid-cycle.
+
+To delete your account: Settings > Account > Delete Account. This permanently removes all
+data after a 30-day grace period during which you can restore the account by emailing
+support@techflow.example.
+
+Password reset: Use the "Forgot Password" link on the login page. A reset link is sent
+to your registered email address and is valid for 1 hour.
+
+
+8. UPTIME AND OUTAGES
+---------------------
+We guarantee 99.9% uptime on Professional plans and 99.99% on Enterprise. Status updates
+are available at status.techflow.example. In the event of a service outage exceeding 1 hour,
+affected customers receive service credits according to our SLA.
+
+
+9. MOBILE APPS
+--------------
+TechFlow Hub mobile apps are available for iOS (requires iOS 15.0 or later) and Android
+(requires Android 10 or later). Mobile apps support offline mode, push notifications,
+and biometric login.

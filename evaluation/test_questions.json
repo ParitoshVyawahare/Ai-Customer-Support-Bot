@@ -1,0 +1,127 @@
+[
+  {
+    "question": "What is the price of the Starter plan?",
+    "expected_answer": "$19 per user per month billed annually, or $24 per user per month billed monthly.",
+    "expected_keywords": ["19", "Starter"]
+  },
+  {
+    "question": "How long is the free trial?",
+    "expected_answer": "14 days, no credit card required.",
+    "expected_keywords": ["14", "trial"]
+  },
+  {
+    "question": "What is the refund policy for annual subscriptions?",
+    "expected_answer": "30-day money-back guarantee, full refund within 5-7 business days.",
+    "expected_keywords": ["30", "refund"]
+  },
+  {
+    "question": "Are monthly subscriptions refundable?",
+    "expected_answer": "No, monthly subscriptions are non-refundable but can be canceled at any time.",
+    "expected_keywords": ["non-refundable", "monthly"]
+  },
+  {
+    "question": "What are the support hours for live chat?",
+    "expected_answer": "Monday through Friday, 9 AM to 6 PM Central Time, on Professional and Enterprise plans.",
+    "expected_keywords": ["Monday", "Friday", "Central"]
+  },
+  {
+    "question": "Who can use phone support?",
+    "expected_answer": "Phone support is 24/7 for Enterprise customers only.",
+    "expected_keywords": ["Enterprise", "phone"]
+  },
+  {
+    "question": "What encryption do you use for data at rest?",
+    "expected_answer": "AES-256 encryption at rest.",
+    "expected_keywords": ["AES-256"]
+  },
+  {
+    "question": "Is TechFlow SOC 2 certified?",
+    "expected_answer": "Yes, SOC 2 Type II certified.",
+    "expected_keywords": ["SOC 2", "Type II"]
+  },
+  {
+    "question": "Do you train AI models on customer data?",
+    "expected_answer": "No, TechFlow does not train AI models on customer data.",
+    "expected_keywords": ["not", "AI"]
+  },
+  {
+    "question": "Which integrations require the Professional plan?",
+    "expected_answer": "Salesforce, HubSpot, and Jira require the Professional plan or higher.",
+    "expected_keywords": ["Salesforce", "HubSpot", "Jira"]
+  },
+  {
+    "question": "How do I reset my password?",
+    "expected_answer": "Use the Forgot Password link on the login page; a reset link is sent to your email and is valid for 1 hour.",
+    "expected_keywords": ["Forgot Password", "1 hour"]
+  },
+  {
+    "question": "What happens when I delete my account?",
+    "expected_answer": "Data is removed after a 30-day grace period during which you can restore the account.",
+    "expected_keywords": ["30-day", "grace"]
+  },
+  {
+    "question": "What is the uptime SLA on the Enterprise plan?",
+    "expected_answer": "99.99% uptime SLA on Enterprise.",
+    "expected_keywords": ["99.99"]
+  },
+  {
+    "question": "What are the iOS requirements for the mobile app?",
+    "expected_answer": "iOS 15.0 or later.",
+    "expected_keywords": ["iOS 15"]
+  },
+  {
+    "question": "How much storage does the Professional plan include per user?",
+    "expected_answer": "50 GB per user.",
+    "expected_keywords": ["50 GB"]
+  },
+  {
+    "question": "Where is TechFlow Solutions headquartered?",
+    "expected_answer": "Austin, Texas.",
+    "expected_keywords": ["Austin"]
+  },
+  {
+    "question": "When was TechFlow Solutions founded?",
+    "expected_answer": "2018.",
+    "expected_keywords": ["2018"]
+  },
+  {
+    "question": "What is the email for security issues?",
+    "expected_answer": "security@techflow.example",
+    "expected_keywords": ["security@techflow"]
+  },
+  {
+    "question": "How many businesses use TechFlow?",
+    "expected_answer": "Over 12,000 businesses across 40 countries.",
+    "expected_keywords": ["12,000", "40"]
+  },
+  {
+    "question": "Does the Starter plan include API access?",
+    "expected_answer": "No, API access is part of the Professional plan and higher.",
+    "expected_keywords": ["API", "Professional"]
+  },
+  {
+    "question": "What AWS regions does TechFlow use?",
+    "expected_answer": "US-East and EU-West.",
+    "expected_keywords": ["US-East", "EU-West"]
+  },
+  {
+    "question": "Can I upgrade my plan immediately?",
+    "expected_answer": "Yes, upgrades take effect immediately. Downgrades take effect at the end of the billing cycle.",
+    "expected_keywords": ["immediately"]
+  },
+  {
+    "question": "What is the price of Tesla's Model 3?",
+    "expected_answer": "Refusal expected — not in the documents.",
+    "expect_refusal": true
+  },
+  {
+    "question": "Who is the CEO of Microsoft?",
+    "expected_answer": "Refusal expected — not in the documents.",
+    "expect_refusal": true
+  },
+  {
+    "question": "Does TechFlow support cryptocurrency payments?",
+    "expected_answer": "Refusal expected — not mentioned in the documents.",
+    "expect_refusal": true
+  }
+]

@@ -1,0 +1,38 @@
+services:
+  backend:
+    build: ./backend
+    container_name: support-bot-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - LLM_MODEL=${LLM_MODEL:-llama-3.1-8b-instant}
+      - EMBED_MODEL=${EMBED_MODEL:-sentence-transformers/all-MiniLM-L6-v2}
+      - CHROMA_PATH=/app/chroma_db
+      - HIGH_CONF_THRESHOLD=${HIGH_CONF_THRESHOLD:-1.2}
+      - MEDIUM_CONF_THRESHOLD=${MEDIUM_CONF_THRESHOLD:-1.6}
+    volumes:
+      - chroma_data:/app/chroma_db
+      - uploads_data:/app/uploads
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 90s
+
+  frontend:
+    build: ./frontend
+    container_name: support-bot-frontend
+    ports:
+      - "8501:8501"
+    environment:
+      - BACKEND_URL=http://backend:8000
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  chroma_data:
+  uploads_data:

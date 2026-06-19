@@ -1,0 +1,12 @@
+.env
+.git
+.gitignore
+__pycache__/
+*.pyc
+.venv/
+venv/
+chroma_db/
+uploads/
+evaluation/eval_results.json
+.DS_Store
+README.md
