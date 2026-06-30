@@ -21,6 +21,7 @@ A production-style RAG (Retrieval-Augmented Generation) chatbot that answers cus
 
 ## 🏗️ Architecture
 
+<img width="646" height="680" alt="image" src="https://github.com/user-attachments/assets/84eab24a-a2a4-4114-8ed0-9e36fe5d7feb" />
 
 
 ---
