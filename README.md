@@ -38,45 +38,6 @@ Run on a 25-question benchmark using the included TechFlow Solutions knowledge b
 
 Reproduce: `python evaluation/eval.py`
 
----
-
-## 🚀 Quick Start
-
-### Option A: Docker (recommended)
-
-```bash
-# 1. Clone
-git clone <your-repo-url>
-cd ai-customer-support-bot
-
-# 2. Set up env
-cp .env.example .env
-# Add your GROQ_API_KEY to .env (free at https://console.groq.com/keys)
-
-# 3. Build and run
-docker-compose up --build
-
-# 4. Open
-# Frontend:  http://localhost:8501
-# Backend:   http://localhost:8000/docs
-```
-
-### Option B: Local (no Docker)
-
-```bash
-# Setup
-python3 -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env  # add your GROQ_API_KEY
-
-# Terminal 1 — backend
-cd backend && uvicorn main:app --reload --port 8000
-
-# Terminal 2 — frontend
-cd frontend && streamlit run app.py
-```
-
----
 
 ## 📖 Usage
 
